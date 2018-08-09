@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <PackageId>wk.PomParser</PackageId>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>0.1.0</Version>
-  </PropertyGroup>
-  <ItemGroup>
-    <Compile Include="Parser.fs" />
-  </ItemGroup>
+    <PropertyGroup>
+        <PackageId>wk.PomParser</PackageId>
+        <TargetFrameworks>netstandard2.0;net451</TargetFrameworks>
+        <Version>1.2.0</Version>
+    </PropertyGroup>
+    <ItemGroup>
+        <Compile Include="Parser.fs" />
+    </ItemGroup>
 </Project>
